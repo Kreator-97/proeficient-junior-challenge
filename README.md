@@ -1,0 +1,15 @@
+# Proeficient Junior Challenge
+
+This is a challenge to create a React App from the following figma
+[Prototype](https://www.figma.com/file/77PMXyRGAnT88URIpfWR3J/Frontend-Challenge-1.1?node-id=0%3A1&t=qZCt9ht4uiuxp6L5-0)
+
+
+## Tecnologies
+The followings tecnologies was used to complete the App:
+
+- React
+- Vite
+- Tailwind
+- Redux
+
+## Create by Donato Monzón with 🔥 and 💓
