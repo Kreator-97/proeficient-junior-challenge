@@ -2,3 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  .btn {
+    @apply px-12 py-2 rounded-md;
+  }
+
+  .btn-r {
+    @apply rounded-r-md;
+  }
+  .btn-l {
+    @apply rounded-l-md;
+  }
+}
