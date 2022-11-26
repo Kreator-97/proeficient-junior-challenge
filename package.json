@@ -6,6 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
+    "build:pages": "tsc && vite build --base='/portfolio/' && yarn create-docs",
+    "create-docs": "rm -rf ./docs/ && mkdir ./docs/ && cp ./dist/* ./docs/ -r",
     "preview": "vite preview",
     "test": "vitest",
     "coverage": "vitest run --coverage"
