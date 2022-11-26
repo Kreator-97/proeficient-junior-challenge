@@ -1,4 +1,5 @@
 import { FC } from 'react'
+
 import { Product } from '../interfaces'
 import { CardImage, Selector } from './'
 
@@ -19,7 +20,7 @@ export const CardSelector: FC<Props> = ({ product }) => {
           <p className='block w-full'>{product.title}</p>
         </div>
       </div>
-      <Selector />
+      <Selector title={ product.title } />
     </div>
   )
 }

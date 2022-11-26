@@ -14,52 +14,52 @@ import wardrobe     from '../assets/wardrobe.svg'
 export const products: Product[] = [
   {
     imgURL: beds,
-    size: 1.2,
-    title: 'Beds'
+    volume: 1.2,
+    title: 'bed'
   },
   {
     imgURL: refrigerator,
-    size: 1.2,
-    title: 'Refrigerator'
+    volume: 1,
+    title: 'refrigerator'
   },
   {
     imgURL: forniture,
-    size: 1.2,
+    volume: .5,
     title: 'forniture'
   },
   {
     imgURL: oven,
-    size: 1.2,
+    volume: 0.6 ,
     title: 'oven'
   },
   {
     imgURL: sofa,
-    size: 1.2,
+    volume: 1.5,
     title: 'sofa'
   },
   {
     imgURL: tv,
-    size: 1.2,
+    volume: .25,
     title: 'tv'
   },
   {
     imgURL: washer,
-    size: 1.2,
+    volume: .5,
     title: 'washer-dryer'
   },
   {
     imgURL: dining,
-    size: 1.2,
+    volume: 2,
     title: 'dining'
   },
   {
     imgURL: desk,
-    size: 1.2,
+    volume: .75,
     title: 'desk'
   },
   {
     imgURL: wardrobe,
-    size: 1.2,
+    volume: 3.2,
     title: 'wardrobe'
   },
   

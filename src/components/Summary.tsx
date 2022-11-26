@@ -1,6 +1,11 @@
 import { SummaryRow } from '.'
+import { useAppSelector } from '../app/hooks'
+import { formatPrice } from '../utils/formatPrice'
 
 export const Summary = () => {
+
+  const summary = useAppSelector((state) => state.summary.info)
+
   return (
     <div className="max-w-md mx-auto mb-8">
       <h2 className="text-center text-2xl text-dark mb-12">Summary</h2>
@@ -10,33 +15,33 @@ export const Summary = () => {
       >
         <SummaryRow
           title='Total Items'
-          value={ 12 }
+          value={ summary.totalItems }
         />
 
         <SummaryRow
           title='Total M²'
-          value={ 12 }
+          value={ summary.totalVolume }
         />
 
         <SummaryRow
           title='Subtotal'
-          value={ 12 }
+          value={ formatPrice(summary.subtotal) }
         />
 
         <SummaryRow
           title='Tax'
-          value={ 12 }
+          value={ formatPrice(summary.tax) }
         />
 
         <SummaryRow
           title='Total'
-          value={ 12 }
+          value={ formatPrice(summary.total) }
           className='font-bold text-black'
         />
 
         <SummaryRow
           title='Due Today 50%'
-          value={ 12 }
+          value={ formatPrice(summary.total / 2) }
           className='font-bold text-black'
         />
       </div>
