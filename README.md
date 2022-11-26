@@ -11,5 +11,18 @@ The followings tecnologies was used to complete the App:
 - Vite
 - Tailwind
 - Redux
+- Vitest, testing-library
+
+## test
+To run all the test execute
+```bash
+yarn test
+```
+
+## build
+To build app run:
+```bash
+yarn build
+```
 
 ## Create by Donato Monzón with 🔥 and 💓
