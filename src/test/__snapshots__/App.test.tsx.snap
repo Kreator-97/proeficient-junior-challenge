@@ -1,0 +1,844 @@
+// Vitest Snapshot v1
+
+exports[`tests on app component > should to match with snapshot 1`] = `
+<div>
+  <div>
+    <nav
+      class="h-[80px] bg-primary flex"
+    >
+      <div
+        class="flex justify-between items-center px-4 w-full max-w-5xl mx-auto"
+      >
+        <img
+          alt="Inicio"
+          height="32"
+          src="/src/assets/home.svg"
+          width="32"
+        />
+        <ul
+          class="gap-4 hidden sm:flex"
+        >
+          <li
+            class="text-white"
+          >
+            How We Work
+          </li>
+          <li
+            class="text-white"
+          >
+            Services
+          </li>
+          <li
+            class="text-white"
+          >
+            Free Quote
+          </li>
+          <li
+            class="text-white"
+          >
+            Contact
+          </li>
+        </ul>
+        <div
+          class="block sm:hidden"
+        >
+          <svg
+            color="#fff"
+            fill="currentColor"
+            height="36"
+            stroke="currentColor"
+            stroke-width="0"
+            style="color: rgb(255, 255, 255);"
+            viewBox="0 0 512 512"
+            width="36"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M64 384h384v-42.666H64V384zm0-106.666h384v-42.667H64v42.667zM64 128v42.665h384V128H64z"
+            />
+          </svg>
+        </div>
+      </div>
+    </nav>
+    <div
+      class="max-w-5xl mx-auto "
+    >
+      <section
+        class="text-center my-20"
+      >
+        <h1
+          class="text-5xl text-dark py-8"
+        >
+          What items to store?
+        </h1>
+        <p>
+          Select which items you wish to store before moving to your new home. We'll keep 'em safe
+        </p>
+      </section>
+      <div
+        class="grid gap-8 grid-cols-1 sm:grid-cols-2  md:grid-cols-4 lg:grid-cols-5 px-4 mb-8"
+      >
+        <div>
+          <div
+            class="flex flex-col gap-4 justify-center p-4 items-center mb-4 shadow-md border border-gray-100"
+          >
+            <div
+              class="h-16 flex items-center"
+            >
+              <img
+                alt="bed"
+                class="max-h-[48px]"
+                src="/src/assets/beds.svg"
+                width="48"
+              />
+            </div>
+            <div>
+              <p
+                class="block w-full"
+              >
+                bed
+              </p>
+            </div>
+          </div>
+          <div
+            class="flex shadow-md rounded-md"
+          >
+            <button
+              class="bg-gray-200 px-2 py-1 text-lg font-bold rounded-l-md"
+            >
+               -
+            </button>
+            <div
+              class="w-full bg-white flex items-center"
+            >
+              <p
+                class="text-center w-full"
+              >
+                0
+              </p>
+            </div>
+            <button
+              class="bg-gray-200 px-2 py-1 text-lg font-bold rounded-r-md"
+            >
+               + 
+            </button>
+          </div>
+        </div>
+        <div>
+          <div
+            class="flex flex-col gap-4 justify-center p-4 items-center mb-4 shadow-md border border-gray-100"
+          >
+            <div
+              class="h-16 flex items-center"
+            >
+              <img
+                alt="refrigerator"
+                class="max-h-[48px]"
+                src="/src/assets/refrigerator.svg"
+                width="48"
+              />
+            </div>
+            <div>
+              <p
+                class="block w-full"
+              >
+                refrigerator
+              </p>
+            </div>
+          </div>
+          <div
+            class="flex shadow-md rounded-md"
+          >
+            <button
+              class="bg-gray-200 px-2 py-1 text-lg font-bold rounded-l-md"
+            >
+               -
+            </button>
+            <div
+              class="w-full bg-white flex items-center"
+            >
+              <p
+                class="text-center w-full"
+              >
+                0
+              </p>
+            </div>
+            <button
+              class="bg-gray-200 px-2 py-1 text-lg font-bold rounded-r-md"
+            >
+               + 
+            </button>
+          </div>
+        </div>
+        <div>
+          <div
+            class="flex flex-col gap-4 justify-center p-4 items-center mb-4 shadow-md border border-gray-100"
+          >
+            <div
+              class="h-16 flex items-center"
+            >
+              <img
+                alt="forniture"
+                class="max-h-[48px]"
+                src="/src/assets/forniture.svg"
+                width="48"
+              />
+            </div>
+            <div>
+              <p
+                class="block w-full"
+              >
+                forniture
+              </p>
+            </div>
+          </div>
+          <div
+            class="flex shadow-md rounded-md"
+          >
+            <button
+              class="bg-gray-200 px-2 py-1 text-lg font-bold rounded-l-md"
+            >
+               -
+            </button>
+            <div
+              class="w-full bg-white flex items-center"
+            >
+              <p
+                class="text-center w-full"
+              >
+                0
+              </p>
+            </div>
+            <button
+              class="bg-gray-200 px-2 py-1 text-lg font-bold rounded-r-md"
+            >
+               + 
+            </button>
+          </div>
+        </div>
+        <div>
+          <div
+            class="flex flex-col gap-4 justify-center p-4 items-center mb-4 shadow-md border border-gray-100"
+          >
+            <div
+              class="h-16 flex items-center"
+            >
+              <img
+                alt="oven"
+                class="max-h-[48px]"
+                src="/src/assets/oven.svg"
+                width="48"
+              />
+            </div>
+            <div>
+              <p
+                class="block w-full"
+              >
+                oven
+              </p>
+            </div>
+          </div>
+          <div
+            class="flex shadow-md rounded-md"
+          >
+            <button
+              class="bg-gray-200 px-2 py-1 text-lg font-bold rounded-l-md"
+            >
+               -
+            </button>
+            <div
+              class="w-full bg-white flex items-center"
+            >
+              <p
+                class="text-center w-full"
+              >
+                0
+              </p>
+            </div>
+            <button
+              class="bg-gray-200 px-2 py-1 text-lg font-bold rounded-r-md"
+            >
+               + 
+            </button>
+          </div>
+        </div>
+        <div>
+          <div
+            class="flex flex-col gap-4 justify-center p-4 items-center mb-4 shadow-md border border-gray-100"
+          >
+            <div
+              class="h-16 flex items-center"
+            >
+              <img
+                alt="sofa"
+                class="max-h-[48px]"
+                src="/src/assets/sofa.svg"
+                width="48"
+              />
+            </div>
+            <div>
+              <p
+                class="block w-full"
+              >
+                sofa
+              </p>
+            </div>
+          </div>
+          <div
+            class="flex shadow-md rounded-md"
+          >
+            <button
+              class="bg-gray-200 px-2 py-1 text-lg font-bold rounded-l-md"
+            >
+               -
+            </button>
+            <div
+              class="w-full bg-white flex items-center"
+            >
+              <p
+                class="text-center w-full"
+              >
+                0
+              </p>
+            </div>
+            <button
+              class="bg-gray-200 px-2 py-1 text-lg font-bold rounded-r-md"
+            >
+               + 
+            </button>
+          </div>
+        </div>
+        <div>
+          <div
+            class="flex flex-col gap-4 justify-center p-4 items-center mb-4 shadow-md border border-gray-100"
+          >
+            <div
+              class="h-16 flex items-center"
+            >
+              <img
+                alt="tv"
+                class="max-h-[48px]"
+                src="/src/assets/tv.svg"
+                width="48"
+              />
+            </div>
+            <div>
+              <p
+                class="block w-full"
+              >
+                tv
+              </p>
+            </div>
+          </div>
+          <div
+            class="flex shadow-md rounded-md"
+          >
+            <button
+              class="bg-gray-200 px-2 py-1 text-lg font-bold rounded-l-md"
+            >
+               -
+            </button>
+            <div
+              class="w-full bg-white flex items-center"
+            >
+              <p
+                class="text-center w-full"
+              >
+                0
+              </p>
+            </div>
+            <button
+              class="bg-gray-200 px-2 py-1 text-lg font-bold rounded-r-md"
+            >
+               + 
+            </button>
+          </div>
+        </div>
+        <div>
+          <div
+            class="flex flex-col gap-4 justify-center p-4 items-center mb-4 shadow-md border border-gray-100"
+          >
+            <div
+              class="h-16 flex items-center"
+            >
+              <img
+                alt="washer-dryer"
+                class="max-h-[48px]"
+                src="/src/assets/washer-dryer.svg"
+                width="48"
+              />
+            </div>
+            <div>
+              <p
+                class="block w-full"
+              >
+                washer-dryer
+              </p>
+            </div>
+          </div>
+          <div
+            class="flex shadow-md rounded-md"
+          >
+            <button
+              class="bg-gray-200 px-2 py-1 text-lg font-bold rounded-l-md"
+            >
+               -
+            </button>
+            <div
+              class="w-full bg-white flex items-center"
+            >
+              <p
+                class="text-center w-full"
+              >
+                0
+              </p>
+            </div>
+            <button
+              class="bg-gray-200 px-2 py-1 text-lg font-bold rounded-r-md"
+            >
+               + 
+            </button>
+          </div>
+        </div>
+        <div>
+          <div
+            class="flex flex-col gap-4 justify-center p-4 items-center mb-4 shadow-md border border-gray-100"
+          >
+            <div
+              class="h-16 flex items-center"
+            >
+              <img
+                alt="dining"
+                class="max-h-[48px]"
+                src="/src/assets/dining.svg"
+                width="48"
+              />
+            </div>
+            <div>
+              <p
+                class="block w-full"
+              >
+                dining
+              </p>
+            </div>
+          </div>
+          <div
+            class="flex shadow-md rounded-md"
+          >
+            <button
+              class="bg-gray-200 px-2 py-1 text-lg font-bold rounded-l-md"
+            >
+               -
+            </button>
+            <div
+              class="w-full bg-white flex items-center"
+            >
+              <p
+                class="text-center w-full"
+              >
+                0
+              </p>
+            </div>
+            <button
+              class="bg-gray-200 px-2 py-1 text-lg font-bold rounded-r-md"
+            >
+               + 
+            </button>
+          </div>
+        </div>
+        <div>
+          <div
+            class="flex flex-col gap-4 justify-center p-4 items-center mb-4 shadow-md border border-gray-100"
+          >
+            <div
+              class="h-16 flex items-center"
+            >
+              <img
+                alt="desk"
+                class="max-h-[48px]"
+                src="/src/assets/desk.svg"
+                width="48"
+              />
+            </div>
+            <div>
+              <p
+                class="block w-full"
+              >
+                desk
+              </p>
+            </div>
+          </div>
+          <div
+            class="flex shadow-md rounded-md"
+          >
+            <button
+              class="bg-gray-200 px-2 py-1 text-lg font-bold rounded-l-md"
+            >
+               -
+            </button>
+            <div
+              class="w-full bg-white flex items-center"
+            >
+              <p
+                class="text-center w-full"
+              >
+                0
+              </p>
+            </div>
+            <button
+              class="bg-gray-200 px-2 py-1 text-lg font-bold rounded-r-md"
+            >
+               + 
+            </button>
+          </div>
+        </div>
+        <div>
+          <div
+            class="flex flex-col gap-4 justify-center p-4 items-center mb-4 shadow-md border border-gray-100"
+          >
+            <div
+              class="h-16 flex items-center"
+            >
+              <img
+                alt="wardrobe"
+                class="max-h-[48px]"
+                src="/src/assets/wardrobe.svg"
+                width="48"
+              />
+            </div>
+            <div>
+              <p
+                class="block w-full"
+              >
+                wardrobe
+              </p>
+            </div>
+          </div>
+          <div
+            class="flex shadow-md rounded-md"
+          >
+            <button
+              class="bg-gray-200 px-2 py-1 text-lg font-bold rounded-l-md"
+            >
+               -
+            </button>
+            <div
+              class="w-full bg-white flex items-center"
+            >
+              <p
+                class="text-center w-full"
+              >
+                0
+              </p>
+            </div>
+            <button
+              class="bg-gray-200 px-2 py-1 text-lg font-bold rounded-r-md"
+            >
+               + 
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="flex justify-between mb-12 px-4"
+      >
+        <button
+          class="btn bg-white rounded-sm border-2 border-primary hover:bg-primary"
+        >
+          Clear
+        </button>
+      </div>
+      <div
+        class="max-w-md mx-auto mb-8"
+      >
+        <h2
+          class="text-center text-2xl text-dark mb-12"
+        >
+          Summary
+        </h2>
+        <div
+          class="px-8 py-4 bg-gray-100 rounded-sm"
+        >
+          <div
+            class="grid py-4 "
+            style="grid-template-columns: 1fr 80px;"
+          >
+            <p>
+              Total Items
+            </p>
+            <p>
+              0
+            </p>
+          </div>
+          <div
+            class="grid py-4 "
+            style="grid-template-columns: 1fr 80px;"
+          >
+            <p>
+              Total M²
+            </p>
+            <p>
+              0
+            </p>
+          </div>
+          <div
+            class="grid py-4 "
+            style="grid-template-columns: 1fr 80px;"
+          >
+            <p>
+              Subtotal
+            </p>
+            <p>
+              $0.00
+            </p>
+          </div>
+          <div
+            class="grid py-4 "
+            style="grid-template-columns: 1fr 80px;"
+          >
+            <p>
+              Tax
+            </p>
+            <p>
+              $0.00
+            </p>
+          </div>
+          <div
+            class="grid py-4 font-bold text-black"
+            style="grid-template-columns: 1fr 80px;"
+          >
+            <p>
+              Total
+            </p>
+            <p>
+              $0.00
+            </p>
+          </div>
+          <div
+            class="grid py-4 font-bold text-black"
+            style="grid-template-columns: 1fr 80px;"
+          >
+            <p>
+              Due Today 50%
+            </p>
+            <p>
+              $0.00
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer
+      class="min-h-[200px] bg-primary"
+    >
+      <div
+        class=" max-w-5xl mx-auto py-20 grid gap-8 px-4 footer__grid"
+      >
+        <section
+          class="flex flex-col gap-8 justify-center"
+        >
+          <div
+            class="mx-auto md:mx-0"
+          >
+            <img
+              alt="Inicio"
+              height="64"
+              src="/src/assets/home.svg"
+              width="64"
+            />
+          </div>
+          <p
+            class="text-white text-center md:text-left"
+          >
+            It is a long established fact that a reader will be distracted but the readable content of a page whenters.
+          </p>
+          <div
+            class="flex gap-4 mx-auto md:mx-0"
+          >
+            <div
+              class="border-white p-2 rounded-full"
+              style="border-width: 3px;"
+            >
+              <svg
+                color="white"
+                fill="currentColor"
+                height="24"
+                stroke="currentColor"
+                stroke-width="0"
+                style="color: white;"
+                viewBox="0 0 512 512"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M492 109.5c-17.4 7.7-36 12.9-55.6 15.3 20-12 35.4-31 42.6-53.6-18.7 11.1-39.4 19.2-61.5 23.5C399.8 75.8 374.6 64 346.8 64c-53.5 0-96.8 43.4-96.8 96.9 0 7.6.8 15 2.5 22.1-80.5-4-151.9-42.6-199.6-101.3-8.3 14.3-13.1 31-13.1 48.7 0 33.6 17.2 63.3 43.2 80.7-16-.4-31-4.8-44-12.1v1.2c0 47 33.4 86.1 77.7 95-8.1 2.2-16.7 3.4-25.5 3.4-6.2 0-12.3-.6-18.2-1.8 12.3 38.5 48.1 66.5 90.5 67.3-33.1 26-74.9 41.5-120.3 41.5-7.8 0-15.5-.5-23.1-1.4C62.8 432 113.7 448 168.3 448 346.6 448 444 300.3 444 172.2c0-4.2-.1-8.4-.3-12.5C462.6 146 479 129 492 109.5z"
+                />
+              </svg>
+            </div>
+            <div
+              class="border-white p-2 rounded-full"
+              style="border-width: 3px;"
+            >
+              <svg
+                color="white"
+                fill="currentColor"
+                height="24"
+                stroke="currentColor"
+                stroke-width="0"
+                style="color: white;"
+                viewBox="0 0 512 512"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M426.8 64H85.2C73.5 64 64 73.5 64 85.2v341.6c0 11.7 9.5 21.2 21.2 21.2H256V296h-45.9v-56H256v-41.4c0-49.6 34.4-76.6 78.7-76.6 21.2 0 44 1.6 49.3 2.3v51.8h-35.3c-24.1 0-28.7 11.4-28.7 28.2V240h57.4l-7.5 56H320v152h106.8c11.7 0 21.2-9.5 21.2-21.2V85.2c0-11.7-9.5-21.2-21.2-21.2z"
+                />
+              </svg>
+            </div>
+            <div
+              class="border-white p-2 rounded-full"
+              style="border-width: 3px;"
+            >
+              <svg
+                color="white"
+                fill="currentColor"
+                height="24"
+                stroke="currentColor"
+                stroke-width="0"
+                style="color: white;"
+                viewBox="0 0 1024 1024"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M512 378.7c-73.4 0-133.3 59.9-133.3 133.3S438.6 645.3 512 645.3 645.3 585.4 645.3 512 585.4 378.7 512 378.7zM911.8 512c0-55.2.5-109.9-2.6-165-3.1-64-17.7-120.8-64.5-167.6-46.9-46.9-103.6-61.4-167.6-64.5-55.2-3.1-109.9-2.6-165-2.6-55.2 0-109.9-.5-165 2.6-64 3.1-120.8 17.7-167.6 64.5C132.6 226.3 118.1 283 115 347c-3.1 55.2-2.6 109.9-2.6 165s-.5 109.9 2.6 165c3.1 64 17.7 120.8 64.5 167.6 46.9 46.9 103.6 61.4 167.6 64.5 55.2 3.1 109.9 2.6 165 2.6 55.2 0 109.9.5 165-2.6 64-3.1 120.8-17.7 167.6-64.5 46.9-46.9 61.4-103.6 64.5-167.6 3.2-55.1 2.6-109.8 2.6-165zM512 717.1c-113.5 0-205.1-91.6-205.1-205.1S398.5 306.9 512 306.9 717.1 398.5 717.1 512 625.5 717.1 512 717.1zm213.5-370.7c-26.5 0-47.9-21.4-47.9-47.9s21.4-47.9 47.9-47.9 47.9 21.4 47.9 47.9a47.84 47.84 0 0 1-47.9 47.9z"
+                />
+              </svg>
+            </div>
+          </div>
+        </section>
+        <section>
+          <h2
+            class="text-2xl mb-12 text-white text-center md:text-left"
+          >
+            About Us
+          </h2>
+          <div
+            class="flex flex-col gap-4 text-sm text-white"
+          >
+            <h3
+              class="text-center md:text-left"
+            >
+              About
+            </h3>
+            <h3
+              class="text-center md:text-left"
+            >
+              Privacy & Policy
+            </h3>
+            <h3
+              class="text-center md:text-left"
+            >
+              Terms & Conditions
+            </h3>
+            <h3
+              class="text-center md:text-left"
+            >
+              Faq
+            </h3>
+          </div>
+        </section>
+        <section>
+          <h2
+            class="text-2xl mb-12 text-white text-center md:text-left"
+          >
+            Navigate
+          </h2>
+          <div
+            class="flex flex-col gap-4 text-sm text-white"
+          >
+            <h3
+              class="text-center md:text-left"
+            >
+              How we work
+            </h3>
+            <h3
+              class="text-center md:text-left"
+            >
+              Services
+            </h3>
+            <h3
+              class="text-center md:text-left"
+            >
+              Faq
+            </h3>
+            <h3
+              class="text-center md:text-left"
+            >
+              Contact
+            </h3>
+            <h3
+              class="text-center md:text-left"
+            >
+              Free Quote
+            </h3>
+          </div>
+        </section>
+        <section>
+          <h2
+            class="text-2xl mb-12 text-white text-center md:text-left"
+          >
+            Contact Us
+          </h2>
+          <div
+            class="flex flex-col gap-4 text-sm text-white mb-8"
+          >
+            <h3
+              class="text-center md:text-left"
+            >
+              Ricardo Margain 444
+            </h3>
+            <h3
+              class="text-center md:text-left"
+            >
+              Call +52 81 1234 5678
+            </h3>
+            <h3
+              class="text-center md:text-left"
+            >
+              Email: info@challenge.com
+            </h3>
+          </div>
+          <div
+            class="border-4 border-white rounded-md py-4 px-8 flex items-center gap-2 max-w-[240px] mx-auto md:mx-0"
+          >
+            <div>
+              <svg
+                color="white"
+                fill="currentColor"
+                height="36"
+                stroke="currentColor"
+                stroke-width="0"
+                style="color: white;"
+                version="1.1"
+                viewBox="0 0 16 16"
+                width="36"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M13.641 2.325c-1.497-1.5-3.488-2.325-5.609-2.325-4.369 0-7.925 3.556-7.925 7.928 0 1.397 0.366 2.763 1.059 3.963l-1.125 4.109 4.203-1.103c1.159 0.631 2.463 0.966 3.787 0.966h0.003c0 0 0 0 0 0 4.369 0 7.928-3.556 7.928-7.928 0-2.119-0.825-4.109-2.322-5.609zM8.034 14.525v0c-1.184 0-2.344-0.319-3.356-0.919l-0.241-0.144-2.494 0.653 0.666-2.431-0.156-0.25c-0.663-1.047-1.009-2.259-1.009-3.506 0-3.634 2.956-6.591 6.594-6.591 1.759 0 3.416 0.688 4.659 1.931 1.244 1.247 1.928 2.9 1.928 4.662-0.003 3.637-2.959 6.594-6.591 6.594zM11.647 9.588c-0.197-0.1-1.172-0.578-1.353-0.644s-0.313-0.1-0.447 0.1c-0.131 0.197-0.512 0.644-0.628 0.778-0.116 0.131-0.231 0.15-0.428 0.050s-0.838-0.309-1.594-0.984c-0.588-0.525-0.987-1.175-1.103-1.372s-0.013-0.306 0.088-0.403c0.091-0.088 0.197-0.231 0.297-0.347s0.131-0.197 0.197-0.331c0.066-0.131 0.034-0.247-0.016-0.347s-0.447-1.075-0.609-1.472c-0.159-0.388-0.325-0.334-0.447-0.341-0.116-0.006-0.247-0.006-0.378-0.006s-0.347 0.050-0.528 0.247c-0.181 0.197-0.694 0.678-0.694 1.653s0.709 1.916 0.809 2.050c0.1 0.131 1.397 2.134 3.384 2.991 0.472 0.203 0.841 0.325 1.128 0.419 0.475 0.15 0.906 0.128 1.247 0.078 0.381-0.056 1.172-0.478 1.338-0.941s0.166-0.859 0.116-0.941c-0.047-0.088-0.178-0.137-0.378-0.238z"
+                />
+              </svg>
+            </div>
+            <p
+              class="text-2xl text-white font-bold"
+            >
+              WhatsApp
+            </p>
+          </div>
+        </section>
+      </div>
+    </footer>
+  </div>
+</div>
+`;

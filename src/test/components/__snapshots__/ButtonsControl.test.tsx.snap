@@ -1,0 +1,15 @@
+// Vitest Snapshot v1
+
+exports[`test on ButtonControl component > should to match with snapshot 1`] = `
+<div>
+  <div
+    class="flex justify-between mb-12 px-4"
+  >
+    <button
+      class="btn bg-white rounded-sm border-2 border-primary hover:bg-primary"
+    >
+      Clear
+    </button>
+  </div>
+</div>
+`;
