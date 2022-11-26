@@ -4,7 +4,7 @@
 
 @layer utilities {
   .btn {
-    @apply px-12 py-2 rounded-md;
+    @apply px-8 md:px-12 py-2 rounded-md transition-colors;
   }
 
   .btn-r {
