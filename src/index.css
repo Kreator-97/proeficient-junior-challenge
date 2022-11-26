@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --sm: 480px;
+  --md: 720px;
+  --lg: 960px;
+  --xl: 1200px;
+}
+
 @layer utilities {
   .btn {
     @apply px-8 md:px-12 py-2 rounded-md transition-colors;
@@ -14,3 +21,21 @@
     @apply rounded-l-md;
   }
 }
+
+.footer__grid {
+  grid-template-columns: 1fr;
+}
+
+@media screen and (min-width: 720px) {
+  .footer__grid {
+    grid-template-columns: repeat(2, minmax(min-content, 1fr));
+    /* grid-template-columns: 250px minmax(min-content, 300px); */
+  }
+}
+
+@media screen and (min-width: 1080px) {
+  .footer__grid {
+    grid-template-columns: 250px repeat(3, minmax(min-content, 1fr));
+  }
+}
+
