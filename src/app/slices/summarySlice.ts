@@ -2,7 +2,7 @@ import { createSlice } from '@reduxjs/toolkit'
 import type { PayloadAction } from '@reduxjs/toolkit'
 
 import { products } from '../../data/products'
-import { calcSummary } from '../../utils/calcSummary'
+import { calcSummary } from '../../utils'
 import { ProductNames } from '../../interfaces'
 
 export interface SummaryState {

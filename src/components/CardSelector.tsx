@@ -1,6 +1,7 @@
 import { FC } from 'react'
 
 import { Product } from '../interfaces'
+import { toCapitalize } from '../utils'
 import { CardImage, Selector } from './'
 
 interface Props {
@@ -17,7 +18,7 @@ export const CardSelector: FC<Props> = ({ product }) => {
           title={ product.title }
         />
         <div>
-          <p className='block w-full'>{product.title}</p>
+          <p className='block w-full font-light text-dark'>{toCapitalize( product.title )}</p>
         </div>
       </div>
       <Selector title={ product.title } />
