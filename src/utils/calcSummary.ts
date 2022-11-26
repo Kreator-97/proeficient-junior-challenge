@@ -1,6 +1,6 @@
 import { Item, SummaryInfo } from '../app/slices/summarySlice'
 
-const PRICE_M2 = Number( import.meta.env.PRICE_M2 )
+const PRICE_M2 = 200
 
 export const calcSummary = (items: Item[]): SummaryInfo => {
   const totalItems = items.reduce((acc, item) => {
@@ -9,7 +9,7 @@ export const calcSummary = (items: Item[]): SummaryInfo => {
 
   const totalVolume = items.reduce((acc, item) => {
     const volume = item.amount * item.volume
-    return acc + volume
+    return Number( (volume + acc).toFixed(2) )
   }, 0)
 
   const subtotal = Number( (totalVolume * PRICE_M2).toFixed(2) )
