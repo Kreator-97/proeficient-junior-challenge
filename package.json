@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "build:pages": "tsc && vite build --base='/proeficient-junior-challenge/' && yarn create-docs",
+    "build:pages": "tsc && vite build --base='/proficient-junior-challenge/' && yarn create-docs",
     "create-docs": "rm -rf ./docs/ && mkdir ./docs/ && cp ./dist/* ./docs/ -r",
     "preview": "vite preview",
     "test": "vitest",
