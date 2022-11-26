@@ -3,8 +3,9 @@ import type { PayloadAction } from '@reduxjs/toolkit'
 
 import { products } from '../../data/products'
 import { calcSummary } from '../../utils/calcSummary'
+import { ProductNames } from '../../interfaces'
 
-interface SummaryState {
+export interface SummaryState {
   items : Item[];
   info  : SummaryInfo;
 }
@@ -20,9 +21,10 @@ export interface SummaryInfo {
 export interface Item {
   amount: number;
   volume: number;
-  id    : string;
+  id    : ProductNames;
 }
 
+// maps the products props to item interface
 const items: Item[] = products.map(product => ({
   amount: 0,
   id    : product.title,
@@ -47,7 +49,7 @@ interface UpdateItemsProps {
   type: 'decrement' | 'increment'
 }
 
-export const SummarySlice = createSlice({
+export const summarySlice = createSlice({
   name: 'summary',
   initialState,
   reducers: {
@@ -79,6 +81,6 @@ export const SummarySlice = createSlice({
   },
 })
 
-export const { updateItems, reset } = SummarySlice.actions
+export const { updateItems, reset } = summarySlice.actions
 
-export default SummarySlice.reducer
+export default summarySlice.reducer
