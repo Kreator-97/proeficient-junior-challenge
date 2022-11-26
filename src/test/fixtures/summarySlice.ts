@@ -1,8 +1,8 @@
-import { SummaryState } from '../../app/slices/summarySlice'
+import { Item, SummaryState } from '../../app/slices/summarySlice'
 
 export const initialState: SummaryState = {
   items: [
-    { amount: 0, id: 'bed', volume: 1.2 },
+    { amount: 0, id: 'beds', volume: 1.2 },
     { amount: 0, id: 'refrigerator', volume: 1 },
     { amount: 0, id: 'forniture', volume: 0.5 },
     { amount: 0, id: 'oven', volume: 0.6 },
@@ -16,4 +16,4 @@ export const initialState: SummaryState = {
   info: { subtotal: 0, tax: 0, total: 0, totalItems: 0, totalVolume: 0 }
 }
 
-export const itemToTest = { amount: 0, id: 'bed', volume: 1.2 }
+export const itemToTest: Item = { amount: 0, id: 'beds', volume: 1.2 }

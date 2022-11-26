@@ -1,4 +1,4 @@
-export type ProductNames = 'desk' | 'bed' | 'dining' | 'forniture' | 'oven' | 'refrigerator' | 'sofa' | 'tv' | 'wardrobe' | 'washer-dryer'
+export type ProductNames = 'desk' | 'beds' | 'dining' | 'forniture' | 'oven' | 'refrigerator' | 'sofa' | 'tv' | 'wardrobe' | 'washer-dryer'
 
 export interface Product {
   title : ProductNames;

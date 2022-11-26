@@ -1,6 +1,6 @@
 import { it, describe, expect } from 'vitest'
 
-import { calcSummary } from '../../utils/calcSummary'
+import { calcSummary } from '../../utils'
 import { initialState } from '../fixtures/summarySlice'
 import { Item } from '../../app/slices/summarySlice'
 
@@ -23,7 +23,7 @@ describe('test on calcSummary function', () => {
       ...initialState.items,
       {
         amount: 3,
-        id: 'bed',
+        id: 'beds',
         volume: 1.2
       },
       {

@@ -13,9 +13,9 @@ export const Selector: FC<Props> = ({title}) => {
   const item = items.find( item => item.id === title )
 
   return (
-    <div className='flex shadow-md rounded-md'>
+    <div className='flex rounded-md border border-gray-200'>
       <button
-        className='bg-gray-200 px-2 py-1 text-lg font-bold rounded-l-md'
+        className='bg-gray-200 px-4 py-1 text-lg rounded-l-md'
         onClick={ () => dispatch( updateItems({ id: title, type: 'decrement' })) }
       > -
       </button>
@@ -25,7 +25,7 @@ export const Selector: FC<Props> = ({title}) => {
         </p>
       </div>
       <button
-        className='bg-gray-200 px-2 py-1 text-lg font-bold rounded-r-md'
+        className='bg-gray-200 px-4 py-1 text-lg  rounded-r-md'
         onClick={ () => dispatch( updateItems({ id: title, type: 'increment' })) }
       > + </button>
     </div>

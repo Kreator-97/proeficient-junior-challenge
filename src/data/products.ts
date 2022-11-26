@@ -15,7 +15,7 @@ export const products: Product[] = [
   {
     imgURL: beds,
     volume: 1.2,
-    title: 'bed'
+    title: 'beds'
   },
   {
     imgURL: refrigerator,

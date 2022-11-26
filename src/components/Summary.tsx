@@ -1,6 +1,6 @@
 import { SummaryRow } from '.'
 import { useAppSelector } from '../app/hooks'
-import { formatPrice } from '../utils/formatPrice'
+import { formatPrice } from '../utils'
 
 export const Summary = () => {
 

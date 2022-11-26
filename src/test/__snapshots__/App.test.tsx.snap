@@ -86,7 +86,7 @@ exports[`tests on app component > should to match with snapshot 1`] = `
               class="h-16 flex items-center"
             >
               <img
-                alt="bed"
+                alt="beds"
                 class="max-h-[48px]"
                 src="/src/assets/beds.svg"
                 width="48"
@@ -94,17 +94,17 @@ exports[`tests on app component > should to match with snapshot 1`] = `
             </div>
             <div>
               <p
-                class="block w-full"
+                class="block w-full font-light text-dark"
               >
-                bed
+                Beds
               </p>
             </div>
           </div>
           <div
-            class="flex shadow-md rounded-md"
+            class="flex rounded-md border border-gray-200"
           >
             <button
-              class="bg-gray-200 px-2 py-1 text-lg font-bold rounded-l-md"
+              class="bg-gray-200 px-4 py-1 text-lg rounded-l-md"
             >
                -
             </button>
@@ -118,7 +118,7 @@ exports[`tests on app component > should to match with snapshot 1`] = `
               </p>
             </div>
             <button
-              class="bg-gray-200 px-2 py-1 text-lg font-bold rounded-r-md"
+              class="bg-gray-200 px-4 py-1 text-lg  rounded-r-md"
             >
                + 
             </button>
@@ -140,17 +140,17 @@ exports[`tests on app component > should to match with snapshot 1`] = `
             </div>
             <div>
               <p
-                class="block w-full"
+                class="block w-full font-light text-dark"
               >
-                refrigerator
+                Refrigerator
               </p>
             </div>
           </div>
           <div
-            class="flex shadow-md rounded-md"
+            class="flex rounded-md border border-gray-200"
           >
             <button
-              class="bg-gray-200 px-2 py-1 text-lg font-bold rounded-l-md"
+              class="bg-gray-200 px-4 py-1 text-lg rounded-l-md"
             >
                -
             </button>
@@ -164,7 +164,7 @@ exports[`tests on app component > should to match with snapshot 1`] = `
               </p>
             </div>
             <button
-              class="bg-gray-200 px-2 py-1 text-lg font-bold rounded-r-md"
+              class="bg-gray-200 px-4 py-1 text-lg  rounded-r-md"
             >
                + 
             </button>
@@ -186,17 +186,17 @@ exports[`tests on app component > should to match with snapshot 1`] = `
             </div>
             <div>
               <p
-                class="block w-full"
+                class="block w-full font-light text-dark"
               >
-                forniture
+                Forniture
               </p>
             </div>
           </div>
           <div
-            class="flex shadow-md rounded-md"
+            class="flex rounded-md border border-gray-200"
           >
             <button
-              class="bg-gray-200 px-2 py-1 text-lg font-bold rounded-l-md"
+              class="bg-gray-200 px-4 py-1 text-lg rounded-l-md"
             >
                -
             </button>
@@ -210,7 +210,7 @@ exports[`tests on app component > should to match with snapshot 1`] = `
               </p>
             </div>
             <button
-              class="bg-gray-200 px-2 py-1 text-lg font-bold rounded-r-md"
+              class="bg-gray-200 px-4 py-1 text-lg  rounded-r-md"
             >
                + 
             </button>
@@ -232,17 +232,17 @@ exports[`tests on app component > should to match with snapshot 1`] = `
             </div>
             <div>
               <p
-                class="block w-full"
+                class="block w-full font-light text-dark"
               >
-                oven
+                Oven
               </p>
             </div>
           </div>
           <div
-            class="flex shadow-md rounded-md"
+            class="flex rounded-md border border-gray-200"
           >
             <button
-              class="bg-gray-200 px-2 py-1 text-lg font-bold rounded-l-md"
+              class="bg-gray-200 px-4 py-1 text-lg rounded-l-md"
             >
                -
             </button>
@@ -256,7 +256,7 @@ exports[`tests on app component > should to match with snapshot 1`] = `
               </p>
             </div>
             <button
-              class="bg-gray-200 px-2 py-1 text-lg font-bold rounded-r-md"
+              class="bg-gray-200 px-4 py-1 text-lg  rounded-r-md"
             >
                + 
             </button>
@@ -278,17 +278,17 @@ exports[`tests on app component > should to match with snapshot 1`] = `
             </div>
             <div>
               <p
-                class="block w-full"
+                class="block w-full font-light text-dark"
               >
-                sofa
+                Sofa
               </p>
             </div>
           </div>
           <div
-            class="flex shadow-md rounded-md"
+            class="flex rounded-md border border-gray-200"
           >
             <button
-              class="bg-gray-200 px-2 py-1 text-lg font-bold rounded-l-md"
+              class="bg-gray-200 px-4 py-1 text-lg rounded-l-md"
             >
                -
             </button>
@@ -302,7 +302,7 @@ exports[`tests on app component > should to match with snapshot 1`] = `
               </p>
             </div>
             <button
-              class="bg-gray-200 px-2 py-1 text-lg font-bold rounded-r-md"
+              class="bg-gray-200 px-4 py-1 text-lg  rounded-r-md"
             >
                + 
             </button>
@@ -324,17 +324,17 @@ exports[`tests on app component > should to match with snapshot 1`] = `
             </div>
             <div>
               <p
-                class="block w-full"
+                class="block w-full font-light text-dark"
               >
-                tv
+                Tv
               </p>
             </div>
           </div>
           <div
-            class="flex shadow-md rounded-md"
+            class="flex rounded-md border border-gray-200"
           >
             <button
-              class="bg-gray-200 px-2 py-1 text-lg font-bold rounded-l-md"
+              class="bg-gray-200 px-4 py-1 text-lg rounded-l-md"
             >
                -
             </button>
@@ -348,7 +348,7 @@ exports[`tests on app component > should to match with snapshot 1`] = `
               </p>
             </div>
             <button
-              class="bg-gray-200 px-2 py-1 text-lg font-bold rounded-r-md"
+              class="bg-gray-200 px-4 py-1 text-lg  rounded-r-md"
             >
                + 
             </button>
@@ -370,17 +370,17 @@ exports[`tests on app component > should to match with snapshot 1`] = `
             </div>
             <div>
               <p
-                class="block w-full"
+                class="block w-full font-light text-dark"
               >
-                washer-dryer
+                Washer-dryer
               </p>
             </div>
           </div>
           <div
-            class="flex shadow-md rounded-md"
+            class="flex rounded-md border border-gray-200"
           >
             <button
-              class="bg-gray-200 px-2 py-1 text-lg font-bold rounded-l-md"
+              class="bg-gray-200 px-4 py-1 text-lg rounded-l-md"
             >
                -
             </button>
@@ -394,7 +394,7 @@ exports[`tests on app component > should to match with snapshot 1`] = `
               </p>
             </div>
             <button
-              class="bg-gray-200 px-2 py-1 text-lg font-bold rounded-r-md"
+              class="bg-gray-200 px-4 py-1 text-lg  rounded-r-md"
             >
                + 
             </button>
@@ -416,17 +416,17 @@ exports[`tests on app component > should to match with snapshot 1`] = `
             </div>
             <div>
               <p
-                class="block w-full"
+                class="block w-full font-light text-dark"
               >
-                dining
+                Dining
               </p>
             </div>
           </div>
           <div
-            class="flex shadow-md rounded-md"
+            class="flex rounded-md border border-gray-200"
           >
             <button
-              class="bg-gray-200 px-2 py-1 text-lg font-bold rounded-l-md"
+              class="bg-gray-200 px-4 py-1 text-lg rounded-l-md"
             >
                -
             </button>
@@ -440,7 +440,7 @@ exports[`tests on app component > should to match with snapshot 1`] = `
               </p>
             </div>
             <button
-              class="bg-gray-200 px-2 py-1 text-lg font-bold rounded-r-md"
+              class="bg-gray-200 px-4 py-1 text-lg  rounded-r-md"
             >
                + 
             </button>
@@ -462,17 +462,17 @@ exports[`tests on app component > should to match with snapshot 1`] = `
             </div>
             <div>
               <p
-                class="block w-full"
+                class="block w-full font-light text-dark"
               >
-                desk
+                Desk
               </p>
             </div>
           </div>
           <div
-            class="flex shadow-md rounded-md"
+            class="flex rounded-md border border-gray-200"
           >
             <button
-              class="bg-gray-200 px-2 py-1 text-lg font-bold rounded-l-md"
+              class="bg-gray-200 px-4 py-1 text-lg rounded-l-md"
             >
                -
             </button>
@@ -486,7 +486,7 @@ exports[`tests on app component > should to match with snapshot 1`] = `
               </p>
             </div>
             <button
-              class="bg-gray-200 px-2 py-1 text-lg font-bold rounded-r-md"
+              class="bg-gray-200 px-4 py-1 text-lg  rounded-r-md"
             >
                + 
             </button>
@@ -508,17 +508,17 @@ exports[`tests on app component > should to match with snapshot 1`] = `
             </div>
             <div>
               <p
-                class="block w-full"
+                class="block w-full font-light text-dark"
               >
-                wardrobe
+                Wardrobe
               </p>
             </div>
           </div>
           <div
-            class="flex shadow-md rounded-md"
+            class="flex rounded-md border border-gray-200"
           >
             <button
-              class="bg-gray-200 px-2 py-1 text-lg font-bold rounded-l-md"
+              class="bg-gray-200 px-4 py-1 text-lg rounded-l-md"
             >
                -
             </button>
@@ -532,7 +532,7 @@ exports[`tests on app component > should to match with snapshot 1`] = `
               </p>
             </div>
             <button
-              class="bg-gray-200 px-2 py-1 text-lg font-bold rounded-r-md"
+              class="bg-gray-200 px-4 py-1 text-lg  rounded-r-md"
             >
                + 
             </button>
