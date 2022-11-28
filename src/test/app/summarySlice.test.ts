@@ -1,9 +1,8 @@
 import { it, expect, describe } from 'vitest'
 import { initialState, itemToTest } from '../fixtures/summarySlice'
 
-import { summarySlice, updateItems } from '../../app/slices/summarySlice'
+import { reset, summarySlice, updateItems } from '../../app/slices/summarySlice'
 import { PRICE_M2 } from '../fixtures/globals'
-
 
 describe('tests on summarySlice', () => {
 
@@ -55,6 +54,15 @@ describe('tests on summarySlice', () => {
     expect(newState.info.totalItems).toBe(0)
     expect(item?.amount).toBe(0)
     expect(newState.info.total).toBe(0)
+  })
+
+  it('should to return the initial state on reset action', () => {
+    const state = summarySlice.reducer(
+      initialState,
+      reset(),
+    )
+
+    expect( state ).toEqual( initialState )
   })
 
 })

@@ -72,8 +72,6 @@ export const summarySlice = createSlice({
 
         return { items, info: calcSummary(items) }
       }
-      
-      return { ...state }
     },
     reset() {
       return { ...initialState }

@@ -1,0 +1,31 @@
+// Vitest Snapshot v1
+
+exports[`tests on selector component > should match with snapshot 1`] = `
+<div>
+  <div
+    class="flex rounded-md border border-gray-200"
+  >
+    <button
+      class="bg-gray-200 px-4 py-1 text-lg rounded-l-md"
+      data-testid="decrement-btn"
+    >
+       -
+    </button>
+    <div
+      class="w-full bg-white flex items-center"
+    >
+      <p
+        class="text-center w-full"
+      >
+        0
+      </p>
+    </div>
+    <button
+      class="bg-gray-200 px-4 py-1 text-lg  rounded-r-md"
+      data-testid="increment-btn"
+    >
+       + 
+    </button>
+  </div>
+</div>
+`;
