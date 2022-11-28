@@ -1,9 +1,10 @@
 import { FC } from 'react'
-import { useAppDispatch, useAppSelector } from '../app/hooks'
 import { updateItems } from '../app/slices/summarySlice'
+import { useAppDispatch, useAppSelector } from '../app/hooks'
+import { ProductNames } from '../interfaces'
 
 interface Props {
-  title: string;
+  title: ProductNames;
 }
 
 export const Selector: FC<Props> = ({title}) => {
@@ -15,6 +16,7 @@ export const Selector: FC<Props> = ({title}) => {
   return (
     <div className='flex rounded-md border border-gray-200'>
       <button
+        data-testid='decrement-btn'
         className='bg-gray-200 px-4 py-1 text-lg rounded-l-md'
         onClick={ () => dispatch( updateItems({ id: title, type: 'decrement' })) }
       > -
@@ -25,6 +27,7 @@ export const Selector: FC<Props> = ({title}) => {
         </p>
       </div>
       <button
+        data-testid='increment-btn'
         className='bg-gray-200 px-4 py-1 text-lg  rounded-r-md'
         onClick={ () => dispatch( updateItems({ id: title, type: 'increment' })) }
       > + </button>

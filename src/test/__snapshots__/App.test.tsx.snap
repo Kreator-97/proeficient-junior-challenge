@@ -105,6 +105,7 @@ exports[`tests on app component > should to match with snapshot 1`] = `
           >
             <button
               class="bg-gray-200 px-4 py-1 text-lg rounded-l-md"
+              data-testid="decrement-btn"
             >
                -
             </button>
@@ -119,6 +120,7 @@ exports[`tests on app component > should to match with snapshot 1`] = `
             </div>
             <button
               class="bg-gray-200 px-4 py-1 text-lg  rounded-r-md"
+              data-testid="increment-btn"
             >
                + 
             </button>
@@ -151,6 +153,7 @@ exports[`tests on app component > should to match with snapshot 1`] = `
           >
             <button
               class="bg-gray-200 px-4 py-1 text-lg rounded-l-md"
+              data-testid="decrement-btn"
             >
                -
             </button>
@@ -165,6 +168,7 @@ exports[`tests on app component > should to match with snapshot 1`] = `
             </div>
             <button
               class="bg-gray-200 px-4 py-1 text-lg  rounded-r-md"
+              data-testid="increment-btn"
             >
                + 
             </button>
@@ -197,6 +201,7 @@ exports[`tests on app component > should to match with snapshot 1`] = `
           >
             <button
               class="bg-gray-200 px-4 py-1 text-lg rounded-l-md"
+              data-testid="decrement-btn"
             >
                -
             </button>
@@ -211,6 +216,7 @@ exports[`tests on app component > should to match with snapshot 1`] = `
             </div>
             <button
               class="bg-gray-200 px-4 py-1 text-lg  rounded-r-md"
+              data-testid="increment-btn"
             >
                + 
             </button>
@@ -243,6 +249,7 @@ exports[`tests on app component > should to match with snapshot 1`] = `
           >
             <button
               class="bg-gray-200 px-4 py-1 text-lg rounded-l-md"
+              data-testid="decrement-btn"
             >
                -
             </button>
@@ -257,6 +264,7 @@ exports[`tests on app component > should to match with snapshot 1`] = `
             </div>
             <button
               class="bg-gray-200 px-4 py-1 text-lg  rounded-r-md"
+              data-testid="increment-btn"
             >
                + 
             </button>
@@ -289,6 +297,7 @@ exports[`tests on app component > should to match with snapshot 1`] = `
           >
             <button
               class="bg-gray-200 px-4 py-1 text-lg rounded-l-md"
+              data-testid="decrement-btn"
             >
                -
             </button>
@@ -303,6 +312,7 @@ exports[`tests on app component > should to match with snapshot 1`] = `
             </div>
             <button
               class="bg-gray-200 px-4 py-1 text-lg  rounded-r-md"
+              data-testid="increment-btn"
             >
                + 
             </button>
@@ -335,6 +345,7 @@ exports[`tests on app component > should to match with snapshot 1`] = `
           >
             <button
               class="bg-gray-200 px-4 py-1 text-lg rounded-l-md"
+              data-testid="decrement-btn"
             >
                -
             </button>
@@ -349,6 +360,7 @@ exports[`tests on app component > should to match with snapshot 1`] = `
             </div>
             <button
               class="bg-gray-200 px-4 py-1 text-lg  rounded-r-md"
+              data-testid="increment-btn"
             >
                + 
             </button>
@@ -381,6 +393,7 @@ exports[`tests on app component > should to match with snapshot 1`] = `
           >
             <button
               class="bg-gray-200 px-4 py-1 text-lg rounded-l-md"
+              data-testid="decrement-btn"
             >
                -
             </button>
@@ -395,6 +408,7 @@ exports[`tests on app component > should to match with snapshot 1`] = `
             </div>
             <button
               class="bg-gray-200 px-4 py-1 text-lg  rounded-r-md"
+              data-testid="increment-btn"
             >
                + 
             </button>
@@ -427,6 +441,7 @@ exports[`tests on app component > should to match with snapshot 1`] = `
           >
             <button
               class="bg-gray-200 px-4 py-1 text-lg rounded-l-md"
+              data-testid="decrement-btn"
             >
                -
             </button>
@@ -441,6 +456,7 @@ exports[`tests on app component > should to match with snapshot 1`] = `
             </div>
             <button
               class="bg-gray-200 px-4 py-1 text-lg  rounded-r-md"
+              data-testid="increment-btn"
             >
                + 
             </button>
@@ -473,6 +489,7 @@ exports[`tests on app component > should to match with snapshot 1`] = `
           >
             <button
               class="bg-gray-200 px-4 py-1 text-lg rounded-l-md"
+              data-testid="decrement-btn"
             >
                -
             </button>
@@ -487,6 +504,7 @@ exports[`tests on app component > should to match with snapshot 1`] = `
             </div>
             <button
               class="bg-gray-200 px-4 py-1 text-lg  rounded-r-md"
+              data-testid="increment-btn"
             >
                + 
             </button>
@@ -519,6 +537,7 @@ exports[`tests on app component > should to match with snapshot 1`] = `
           >
             <button
               class="bg-gray-200 px-4 py-1 text-lg rounded-l-md"
+              data-testid="decrement-btn"
             >
                -
             </button>
@@ -533,6 +552,7 @@ exports[`tests on app component > should to match with snapshot 1`] = `
             </div>
             <button
               class="bg-gray-200 px-4 py-1 text-lg  rounded-r-md"
+              data-testid="increment-btn"
             >
                + 
             </button>
