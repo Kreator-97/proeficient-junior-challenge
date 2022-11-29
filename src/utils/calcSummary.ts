@@ -10,7 +10,7 @@ export const calcSummary = (items: Item[]): SummaryInfo => {
   const totalVolume = items.reduce((acc, item) => {
     // item.volume* 100 converts the decimals to integers
     const volume = (item.amount * (item.volume * 100) ) / 100
-    return volume + acc
+    return Number( (volume + acc).toFixed(2) )
   }, 0)
 
   const subtotal = Number( (totalVolume * PRICE_M2).toFixed(2) )

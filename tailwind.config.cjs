@@ -20,6 +20,10 @@ module.exports = {
         dark: '#06170B',
       }
     },
+    fontFamily: {
+      'sans': ['poppins'],
+      'serif': ['poppins'],
+    }
   },
   plugins: [],
 }
